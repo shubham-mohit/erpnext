@@ -1,0 +1,30 @@
+2024-04-01 16:41:49,876 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'cmd': 'ticket.customFunction.receive_data_from_other_app'}
+2024-04-01 16:47:01,675 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'cmd': 'ticket.customFunction.receive_data_from_other_app'}
+2024-04-01 16:48:57,883 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'cmd': 'ticket.customFunction.receive_data_from_other_app'}
+2024-04-01 16:49:40,810 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'cmd': 'ticket.customFunction.receive_data_from_other_app'}
+2024-04-01 17:08:42,966 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'cmd': 'ticket.customFunction.receive_data_from_other_app'}
+2024-04-02 11:08:25,252 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'usr': 'new2@example.com', 'pwd': '********', 'cmd': 'ticket.ticket.login.login'}
+2024-04-02 11:30:29,808 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'usr': 'new2@example.com', 'pwd': '********', 'cmd': 'ticket.ticket.login.get_user_details'}
+2024-04-02 12:17:26,866 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'doctype': 'CustomerTickets', 'docname': '123456', 'comment_type': 'comment', 'content': 'YourComment', 'cmd': 'ticket.customFunction.add_comment_with_created_by'}
+2024-04-02 12:24:09,178 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'doctype': 'CustomerTickets', 'docname': '123456', 'comment_type': 'comment', 'content': 'YourComment', 'cmd': 'ticket.customFunction.add_comment_with_created_by'}
+2024-04-02 12:26:49,098 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'doctype': 'CustomerTickets', 'docname': '123456', 'comment_type': 'comment', 'content': 'YourComment', 'cmd': 'ticket.customFunction.add_comment_with_created_by'}
