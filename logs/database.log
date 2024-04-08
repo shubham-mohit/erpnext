@@ -2678,3 +2678,29 @@ index modified(modified))
 ALTER TABLE `tabCustomerTickets` ADD COLUMN `ticketid` varchar(140) unique, ADD COLUMN `topic` varchar(140), ADD COLUMN `createdby` varchar(140)
 2024-04-01 15:39:25,161 WARNING database DDL Query made to DB:
 ALTER TABLE `tabCustomerTickets` ADD UNIQUE INDEX IF NOT EXISTS ticketid (`ticketid`)
+2024-04-03 11:15:03,867 WARNING database DDL Query made to DB:
+create table `tabtry` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-03 11:18:16,354 WARNING database DDL Query made to DB:
+RENAME TABLE `tabtry` TO `tabtimepass`
+2024-04-03 11:19:14,823 WARNING database DDL Query made to DB:
+create sequence if not exists timepass_id_seq nocache nocycle
+2024-04-03 11:19:14,855 WARNING database DDL Query made to DB:
+ALTER TABLE `tabtimepass` MODIFY `name` bigint
+2024-04-03 11:19:14,888 WARNING database DDL Query made to DB:
+ALTER TABLE `tabtimepass` ADD COLUMN `namebata` varchar(140)
