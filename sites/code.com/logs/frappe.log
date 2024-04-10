@@ -102,3 +102,9 @@ Traceback (most recent call last):
     self.set_user_and_timestamp()
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'ErrorLog' object has no attribute 'set_user_and_timestamp'
+2024-04-08 17:21:56,826 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'doctype': 'CustomerTickets', 'name': '12345688', 'cmd': 'frappe.client.delete'}
+2024-04-08 17:22:09,924 ERROR frappe New Exception collected in error log
+Site: code.com
+Form Dict: {'doctype': 'CustomerTickets', 'name': '12345688', 'cmd': 'frappe.client.delete'}
