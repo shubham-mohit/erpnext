@@ -2704,3 +2704,5 @@ create sequence if not exists timepass_id_seq nocache nocycle
 ALTER TABLE `tabtimepass` MODIFY `name` bigint
 2024-04-03 11:19:14,888 WARNING database DDL Query made to DB:
 ALTER TABLE `tabtimepass` ADD COLUMN `namebata` varchar(140)
+2024-04-12 11:55:02,366 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomerTickets` ADD COLUMN `custom_owner` varchar(140)
